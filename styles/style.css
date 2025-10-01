@@ -180,7 +180,7 @@ h1, .sup-header {
     background-position-y: 190px;
     background-position-x: 170px;
     height: 564px;
-    padding-left: 650px;
+    padding-left: 500px;
     padding-top: 80px;
 }
 
@@ -313,5 +313,6 @@ footer {
     /*margin: 0 auto;*/
     font-weight: 300;
     font-size: 16px;
+
 
 }
