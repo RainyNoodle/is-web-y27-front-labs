@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="Website for Ceramic soul brand"/>
+    <meta name="author" content="Awesome student"/>
+    <title>Ceramic blog</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link
+            href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;1,400&display=swap"
+            rel="stylesheet"
+    />
+</head>
+<body>
+<section class="promo">
+    <div class="container">
+        <header class="header">
+            <div class="burger"><span></span><span></span><span></span></div>
+            <a href="index.html" class="header__logo"
+            ><img src="/src/logo/logo.png" alt="logo"
+            /></a>
+            <div class="header__icons">
+                <a href="#"><span class="icon-search"></span></a>
+                <a href="#"><span class="icon-shopping-bag"></span></a>
+            </div>
+        </header>
+        <h1 class="title-h1 promo__title">
+            our digital notes
+        </h1>
+    </div>
+</section>
+
+<nav class="header__nav">
+    <a href="catalog.html" class="header__nav-link">Catalog</a>
+    <a href="blog.html" class="header__nav-link">Blog</a>
+    <a href="about.html" class="header__nav-link">About</a>
+</nav>
+
+<div class="menu">
+    <button class="menu__close">⨉</button>
+    <div class="menu__content">
+        <a href="catalog.html" class="menu__link">Catalog</a>
+        <a href="blog.html" class="menu__link">Blog</a>
+        <a href="about.html" class="menu__link">About</a>
+    </div>
+</div>
+
+<section class="blog">
+    <div id=grid class="blog__grid"></div>
+</section>
+
+<section class="footer">
+    <footer class="footer">
+        <div class="footer__columns">
+            <div class="footer__column">
+                <h3 class="footer__column__title">newsletter</h3>
+                <p class="footer__column__text">Keep up to date with news and promotions</p>
+                <form action="" method="get">
+                    <label class="footer__label">
+                        <input type="email" class="footer__input" name="email" placeholder="Enter your e-mail">
+                    </label>
+                    <div class="footer__term">
+                        <label>
+                            <input type="checkbox" class="footer__input--checkbox" name="term"/>
+                        </label>
+                        <p class="footer__term--text">I agree with the <a href="#" class="form__term_link">terms</a></p>
+                    </div>
+                    <button class="btn-default footer__btn" type="submit">Submit</button>
+                </form>
+            </div>
+            <div class="footer__column">
+                <div class="footer__column__navigation">
+                    <div class="footer__column__navigation__discover">
+                        <h3 class="footer__column__title">discover</h3>
+                        <p class="footer__column__text">About Us</p>
+                        <p class="footer__column__text">Blog</p>
+                    </div>
+                    <div class="footer__column__navigation-__shopping">
+                        <h3 class="footer__column__title">shopping</h3>
+                        <p class="footer__column__text">Catalog</p>
+                    </div>
+                    <div class="footer__column__navigation__information">
+                        <h3 class="footer__column__title">information</h3>
+                        <p class="footer__column__text">Terms and Conditions</p>
+                    </div>
+                </div>
+                <div class="footer__column__social">
+                    <h3 class="footer__column__title">follow us</h3>
+                    <div class="footer__social__icons">
+                        <img src="/src/logo/follow/facebook.svg" alt="facebook" class="footer__img"/>
+                        <img src="/src/logo/follow/instagram.svg" alt="facebook" class="footer__img"/>
+                        <img src="/src/logo/follow/pinterest.svg" alt="facebook" class="footer__img"/>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <p class="footer__copyright">© Copyright 2025, Ceramic soul</p>
+</section>
+
+<script type="module" src="/src/js/script.js"></script>
+<script type="module" src="/src/js/blog.js"></script>
+</body>
+</html>

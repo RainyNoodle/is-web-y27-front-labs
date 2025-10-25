@@ -1,0 +1,5 @@
+@use "/src/sass/base/mixins.scss" as *;
+
+.about__content--marked {
+  @include span;
+}

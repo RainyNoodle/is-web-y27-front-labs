@@ -1,0 +1,18 @@
+@use "/src/sass/base/mixins.scss" as *;
+@use "/src/sass/base/variables.scss" as *;
+
+.title-h1-italic {
+	@include title;
+	font-size: 24px;
+	font-style: italic;
+}
+
+.title-h1 {
+  @include title;
+  font-size: 32px;
+}
+
+.title-h2 {
+  @include title;
+  font-size: 20px;
+}

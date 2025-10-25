@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="Website for Ceramic soul brand"/>
+    <meta name="author" content="Awesome student"/>
+    <title>About ceramic</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link
+            href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;1,400&display=swap"
+            rel="stylesheet"
+    />
+</head>
+<body>
+<section class="promo">
+    <div class="container">
+        <header class="header">
+            <div class="burger"><span></span><span></span><span></span></div>
+            <a href="index.html" class="header__logo"
+            ><img src="/src/logo/logo.png" alt="logo"
+            /></a>
+            <div class="header__icons">
+                <a href="#"><span class="icon-search"></span></a>
+                <a href="#"><span class="icon-shopping-bag"></span></a>
+            </div>
+        </header>
+        <h1 class="title-h1 promo__title">
+            where it all began
+        </h1>
+    </div>
+</section>
+
+<nav class="header__nav">
+    <a href="catalog.html" class="header__nav-link">Catalog</a>
+    <a href="blog.html" class="header__nav-link">Blog</a>
+    <a href="about.html" class="header__nav-link">About</a>
+</nav>
+
+<div class="menu">
+    <button class="menu__close">⨉</button>
+    <div class="menu__content">
+        <a href="catalog.html" class="menu__link">Catalog</a>
+        <a href="blog.html" class="menu__link">Blog</a>
+        <a href="about.html" class="menu__link">About</a>
+    </div>
+</div>
+
+<section class="about">
+    <div class="about__container">
+        <img class="about__img" src="/src/img/about/crafts.jpg" alt="crafts"/>
+        <div class="about__content">
+            <p class="about__text">Our small pottery workshop began as a simple passion project, rooted in a love for
+                handmade artistry and traditional craftsmanship. What started with a single wheel and a few lumps of
+                clay has grown into a cozy creative space where ideas take shape and stories are told through every
+                piece. Inspired by timeless techniques and the beauty of natural materials, we’ve built a place where
+                both beginners and experienced artists can come together, share their skills, and celebrate the art of
+                pottery. Each creation reflects our journey—shaped by hand, fired with care, and made to be
+                cherished</p>
+            <p class="about__text">Over the years, our workshop has become more than just a place to create—it’s a
+                community. Friends, families, and curious visitors gather here to learn, connect, and experience the joy
+                of working with clay. From intimate masterclasses to collaborative projects, we believe in the power of
+                handmade art to bring people together and spark creativity in unexpected ways.</p>
+            <p class="about__text">Every piece that leaves our studio carries a bit of our story, blending tradition
+                with personal expression. Whether it’s a simple cup or an intricate vase, our ceramics are crafted to be
+                both beautiful and functional, adding warmth and authenticity to any space.</p>
+        </div>
+    </div>
+</section>
+
+<section class="form">
+    <div class="form_container">
+        <h1 class="title-h1 form__title">
+            get in touch
+        </h1>
+        <div class="form__content">
+            <div class="form__content--pic">
+                <img src="/src/img/form/tea.jpg" alt="tea" class="form__img"/>
+            </div>
+            <div class="form__content--form">
+                <form action="" method="get">
+                    <p class="form__text">Name</p>
+                    <label class="form__label">
+                        <input type="text" class="form__input" name="name" placeholder="Name">
+                    </label>
+                    <p class="form__text">Email</p>
+                    <label class="form__label">
+                        <input type="email" class="form__input" name="email" placeholder="Email">
+                    </label>
+                    <p class="form__text">Your question</p>
+                    <label class="form__label">
+                        <input type="text" class="form__input--question" name="question" placeholder="Question">
+                    </label>
+                    <div class="form__term">
+                        <label>
+                            <input type="checkbox" class="form__input--checkbox" name="term"/>
+                        </label>
+                        <p class="form__term--text">I agree with the <a href="#" class="form__term_link">terms</a></p>
+                    </div>
+                    <button class="btn-default form__btn" type="submit">Send request</button>
+                </form>
+                <div class="form__content--vase">
+                    <img src="/src/img/form/vase.png" alt="vase" class="form__content--vase__img"/>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="find">
+    <div class="container">
+        <h1 class="title-h1 find__title">
+            find us
+        </h1>
+        <div class="find__content">
+            <div class="find__map" style="position:relative;overflow:hidden;"><a
+                    href="https://yandex.ru/maps/2/saint-petersburg/?utm_medium=mapframe&utm_source=maps"
+                    style="color:#eee;font-size:12px;position:absolute;top:0px;">Санкт‑Петербург</a><a
+                    href="https://yandex.ru/maps/geo/murino/53152798/?ll=30.456792%2C60.060056&utm_medium=mapframe&utm_source=maps&z=13.58"
+                    style="color:#eee;font-size:12px;position:absolute;top:14px;">Мурино — Яндекс Карты</a>
+                <iframe src="https://yandex.ru/map-widget/v1/?ll=30.456792%2C60.060056&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg1MzE1Mjc5OBJq0KDQvtGB0YHQuNGPLCDQm9C10L3QuNC90LPRgNCw0LTRgdC60LDRjyDQvtCx0LvQsNGB0YLRjCwg0JLRgdC10LLQvtC70L7QttGB0LrQuNC5INGA0LDQudC-0L0sINCc0YPRgNC40L3QviIKDTaC80EVhDRwQg%2C%2C&z=13.58"
+                        width="100%" height="100%" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="footer">
+    <footer class="footer">
+        <div class="footer__columns">
+            <div class="footer__column">
+                <h3 class="footer__column__title">newsletter</h3>
+                <p class="footer__column__text">Keep up to date with news and promotions</p>
+                <form action="" method="get">
+                    <label class="footer__label">
+                        <input type="email" class="footer__input" name="email" placeholder="Enter your e-mail">
+                    </label>
+                    <div class="footer__term">
+                        <label>
+                            <input type="checkbox" class="footer__input--checkbox" name="term"/>
+                        </label>
+                        <p class="footer__term--text">I agree with the <a href="#" class="form__term_link">terms</a></p>
+                    </div>
+                    <button class="btn-default footer__btn" type="submit">Submit</button>
+                </form>
+            </div>
+            <div class="footer__column">
+                <div class="footer__column__navigation">
+                    <div class="footer__column__navigation__discover">
+                        <h3 class="footer__column__title">discover</h3>
+                        <p class="footer__column__text">About Us</p>
+                        <p class="footer__column__text">Blog</p>
+                    </div>
+                    <div class="footer__column__navigation__shopping">
+                        <h3 class="footer__column__title">shopping</h3>
+                        <p class="footer__column__text">Catalog</p>
+                    </div>
+                    <div class="footer__column__navigation__information">
+                        <h3 class="footer__column__title">information</h3>
+                        <p class="footer__column__text">Terms and Conditions</p>
+                    </div>
+                </div>
+                <div class="footer__column__social">
+                    <h3 class="footer__column__title">follow us</h3>
+                    <div class="footer__social__icons">
+                        <img src="/src/logo/follow/facebook.svg" alt="facebook" class="footer__img"/>
+                        <img src="/src/logo/follow/instagram.svg" alt="facebook" class="footer__img"/>
+                        <img src="/src/logo/follow/pinterest.svg" alt="facebook" class="footer__img"/>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <p class="footer__copyright">© Copyright 2025, Ceramic soul</p>
+</section>
+
+<script type="module" src="/src/js/script.js"></script>
+</body>
+</html>

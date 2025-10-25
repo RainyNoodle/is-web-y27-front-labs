@@ -1,0 +1,73 @@
+.promo {
+  padding-top: 50px;
+
+  &__title {
+    margin-block-start: 50px;
+    padding-inline: 5px;
+  }
+
+  &__img {
+    margin: 40px auto 0 auto;
+    width: 270px;
+    height: 377px;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  &__btn {
+    margin: 18px auto 0 auto;
+  }
+
+  &__content {
+    &__vase {
+      animation-name: animka;
+      animation-timing-function: ease-out;
+      animation-duration: 2s;
+      animation-fill-mode: forwards;
+      animation-iteration-count: 1;
+    }
+  }
+}
+
+@media (min-width: 770px) {
+  .promo__content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 30px;
+    min-height: 500px;
+    max-width: 1400px;
+    margin: auto;
+  }
+
+  .promo__title {
+    margin-block-start: 0;
+    margin-block-end: 50px;
+    flex: 1;
+  }
+
+  .promo__content__vase {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .promo__content__img {
+    max-height: 600px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .promo__content__img {
+    display: none;
+  }
+}
+
+@keyframes animka {
+  from {
+    transform: translateX(300px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
